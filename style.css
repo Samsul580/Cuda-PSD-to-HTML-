@@ -1,0 +1,478 @@
+@font-face {
+    src: url(font-family/TitilliumWeb-Regular.ttf);
+    font-family: Titillium Web;
+}
+/* Welcome section design start here */
+.welcome {
+    background-color: #87509c;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.mid {
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.menu {
+    width: 80%;
+    float: left;
+}
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.menu ul li a:hover {
+    background-color: #643a79;
+}
+.wel-text {
+    text-align: center;
+}
+.wel-text h1 {
+    color: #fff;
+    width: 80%;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.wel-text a {
+    color: #fff;
+    font-size: 17px;
+    display: inline-block;
+    padding: 18px 50px;
+    background-color: #eb7d4b;
+    border-bottom: 4px solid #c86a40;
+    border-radius: 4px;
+}
+/* Welcome section design end here */
+
+/* Service section design start here */
+.service {
+    padding: 100px 0;
+    background-color: #17c2a4;
+    margin-bottom: 0px;
+}
+.ser-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ser-top h1 {
+    color: #fff;
+    font-size: 40px;
+}
+.ser-top hr {
+    width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #14a58c;
+    margin: 10px auto;
+}
+.ser-top p {
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    font-size: 17px;
+}
+.ser-box {
+    width: 24%;
+    display: inline-block;
+}
+.ser-box img {
+    margin: auto;
+    display: block;
+
+}
+.ser-box h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px 0;
+}
+.ser-box p{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+/* Service section design end here */
+
+/* Team member section design start here */
+.team-member {
+    background-color: #e7f1f8;
+    padding: 100px;
+}
+.team-member h1 {
+    font-size: 40px;
+    color: #3c4761;
+    text-align: center;
+    margin: 0;
+}
+.team-member hr {
+    width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #c8d9e5;
+    margin: 15px auto;
+}
+.team-member p {
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-box {
+    width: 23%;
+    display: inline-block;
+}
+.team-box img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+.team-box h2 {
+    color: #27283d;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+.team-box h5 {
+    text-align: center;
+    color: #30bae7;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.team-box p {
+    margin-bottom: 20px;
+}
+.social ul {
+    text-align: center;
+}
+.social ul li {
+    display: inline-block;
+}
+.social ul li a {
+    display: block;
+    height: 16px;
+    width: 16;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+}
+/* Team member section design end here */
+
+/* Skills section design start here */
+.skills {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.skills h1 {
+    color: #3c4761;
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+.skills hr {
+    width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #dfe8ed;
+    margin: 15px auto;
+}
+.skills p {
+    color: #3c4761;
+    font-size: 17px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.skills-area {
+    margin-top: 70px;
+}
+.skills-box {
+    width: 24%;
+    display: inline-block;
+}
+.skills-box img {
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.skills-box h2 {
+    text-transform: uppercase;
+    color: #3c4761;
+    text-align: center;
+}
+/* Skills section design end here */
+
+/* Portfolio section design start here */
+.portfolio {
+    background-color: #ffdd99;
+    padding: 100px 0;
+}
+.portfolio h1 {
+    font-size: 40px;
+    color: #393939;
+    margin: 0 auto;
+    text-align: center;
+}
+.portfolio hr {
+    width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #e5c37f;
+    margin: 15px auto;
+}
+.portfolio p {
+    color: #393939;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 17px;
+}
+.port-btn {
+    margin: 50px 0;
+}
+.port-btn ul {
+    text-align: center;
+}
+.port-btn ul li {
+    display: inline-block;
+}
+.port-btn ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #393939;
+    background-color: #ebc985;
+    display: inline-block;
+    padding: 7px 20px;
+    margin-left: 5px;
+    border-radius: 5%;
+}
+.port-btn ul li a:hover {
+    background-color: #fff;
+}
+.port-btn ul li a:focus {
+    background-color: #fff;
+}
+.port-box {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.port-box img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.port-box h3 {
+    text-align: center;
+    color: #393939;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.portfolio .mid > a {
+    color: #fff;
+    font-size: 17px;
+    display: inline-block;
+    padding: 18px 50px;
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+.portfolio > .mid {
+    text-align: center;
+}
+/* Portfolio section design end here */
+
+/* Testimonial section design start here */
+.testimonial {
+    padding-top: 100px;
+    background-color: #d74680;
+}
+.testimonial:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.testimonial h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+.testimonial hr {
+    width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #b73c6d;
+    margin: 15px auto;
+}
+.testimonial .mid > p {
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+.client-area {
+    margin-top: 70px;
+}
+.client-box {
+    width: 50%;
+    float: left;
+   padding-bottom: 100px;
+}
+
+.client-img {
+    float: left;
+    margin-right: 50px;
+}
+.client-mes {
+    float: left;
+    width: 60%;
+}
+.client-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.client-mes p {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+.client-mes h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+}
+.client-mes h5 {
+    color: #ffdd99;
+    font-weight: normal;
+    font-size: 17px;
+}
+/* Testimonial section design end here */
+
+/* Message section design start here */
+.message {
+    background-color: #3c5499;
+    padding: 100px 0;
+}
+.message h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.message hr {
+    width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #273a71;
+    margin: 15px auto;
+}
+.message p {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.input {
+    width: 70%;
+    margin: auto;
+}
+.input form input[type="text"] {
+    width: 48%;
+    display: inline-block;
+    border: 1px solid #3c5499;
+    box-sizing: border-box;
+    padding: 12px;
+    color: #fff;
+    background-color: #273a71;
+    border-radius: 5px;
+}
+.input form input:nth-child(2) {
+    float: right;
+}
+.input textarea {
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #3c5499;
+    box-sizing: border-box;
+    padding: 12px;
+    color: #fff;
+    background-color: #273a71;
+    border-radius: 5px;
+    min-height: 150px;
+}
+.submit {
+    text-align: center;
+}
+.input form input[type="submit"] {
+    color: #fff;
+    font-size: 17px;
+    display: inline-block;
+    padding: 18px 50px;
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* Message section design end here */
+
+/* Footer area design start here */
+.footer {
+    background-color: #344b8e;
+    padding: 30px 0;
+}
+.footer ul {
+    text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li a {
+    color: #fff;
+    font-size: 22px;
+    margin-right: 35px;
+}
+.footer ul li a:hover {
+    color: #30bae7;
+}
+/* Footer area design end here */
